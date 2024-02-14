@@ -1,0 +1,39 @@
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width:17rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.texts{
+    padding: 0px 16px ;
+    height: 85px;
+    font-weight: bold;
+    padding-left:25px ;
+
+}
+.texts p span {
+    color: yellow;
+}
+.image{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 11px;
+    
+}
+.image-container{
+    width: 100%;
+    height: 17rem;
+}
